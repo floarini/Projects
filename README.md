@@ -1,1 +1,5 @@
-This Repository is my ongoing project as portfolio to showcase my data analyst skillset.
+- 👋 Hi, I’m @floarini 
+- 👀 This repository is for my learning journal for project I've been doing
+- 🌱 I’m currently learning Python and R for data analytics
+- 💞️ This repo also to showcase my data analytics skillset
+- 📫 Check out my LinkedIn page (Desilya Bunga Arini) or visit my Tableu public profile (Desilya Bunga Arini)
