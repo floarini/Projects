@@ -1,1 +1,1 @@
-# SQL_portfolio_covid
+# SQL_portfolio_project
