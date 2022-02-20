@@ -1,4 +1,8 @@
 /* 
+Queries used for Tableu project. This SQL project showcase skills by using: 
+Multiple Join Data, Aggregate Function, Having, Stored Procedure, Case statement, 
+
+
 Crate a visualization that provides a breakdown between male and female
 employees working in the company each year starting from year 1990.
 */
@@ -63,7 +67,7 @@ from different departments for each year, starting from 1990.
 
 
 SELECT
-	d.dept_name,
+    d.dept_name,
     ee.gender,
     dm.emp_no,
     dm.from_date,
@@ -72,7 +76,7 @@ SELECT
 	CASE
 		WHEN YEAR(dm.to_date) >= e.calendar_year AND YEAR(dm.from_date) <= e.calendar_year THEN 1
         ELSE 0
-	END AS active
+    END AS active
 FROM
 	(SELECT
 		YEAR(hire_date) AS calendar_year
